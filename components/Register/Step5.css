@@ -1,0 +1,107 @@
+.step5{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100%;
+    animation: motion ease-in 0.8s ;
+    transition: all 0.8s;
+}
+
+@keyframes motion {
+    0%{opacity: 80%;
+    transform: translateX(70px);}
+    100%{opacity: 100%;
+        transform: translateX(0px);}
+}
+
+
+.lock{
+    border: 2px solid red;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    color: red;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.step5 h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #464646;
+}
+
+.step5 .set-p{
+    width: 12rem;
+    color: #464646;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.step5 h4{
+    color: #464646;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.lil-box{
+    display: flex;
+    width: 25rem;
+    align-items: center;
+    align-content: center;
+    margin-top: 3rem;
+    position: relative;
+    border: 2px solid #cacaca;
+    padding: 0.6rem;
+    border-radius: 5px;
+    color: #616161;
+
+}
+
+.lil-box:hover{
+    cursor: pointer;
+}
+
+.log-images{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.log-cards{
+    display: flex;
+    width: 30rem;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logoIcon{
+    width: 3rem;
+    height: auto;
+   
+}
+.VERVE{
+    width: auto;
+    height: 2rem;
+}
+.sec-server{
+    position: absolute;
+    display: flex;
+    top: -1.5rem;
+    right: 0;
+}
+.make-blind{
+    opacity: 20%;
+}
+.sep-ring{
+  margin-top: -18%;
+
+}
+.sep-ring-tr{
+    display: block;
+}
+

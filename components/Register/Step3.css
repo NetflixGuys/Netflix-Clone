@@ -1,0 +1,52 @@
+.step3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    animation: motion ease-in 0.8s ;
+    transition: all 0.8s;
+    
+    gap: 1.5rem;
+   
+}
+
+@keyframes motion {
+    0%{opacity: 80%;
+    transform: translateX(70px);}
+    100%{opacity: 100%;
+        transform: translateX(0px);}
+}
+.ico{
+    color: red;
+    font-size: 3rem;
+}
+.ico-sm{
+    color: red;
+    font-size: 2rem;
+}
+.frst-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.frst-3 h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.ul-step3 li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ul-step3 li>p{
+    font-size: 1rem;
+    font-weight: 200;
+    width: 14rem;
+}
